@@ -43,7 +43,6 @@
 .brand{
   font-weight: 700;
   font-size: 3rem;
-
 }
 .nav-links{
   
@@ -65,6 +64,11 @@
 /* Banner Related Styles */
 .banner-content{
   max-width: 850px;
-  margin:  auto;
+  margin: 0 auto;
+  text-align: center;
 }
-
+.banner-title{
+  font-weight: 700;
+  font-size: 4rem;
+  
+}
