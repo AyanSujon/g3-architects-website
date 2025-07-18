@@ -28,6 +28,11 @@
 .bg-light{
   background-color: rgba(255, 144, 14, 0.1);
 }
+
+
+section{
+  margin-bottom: 50px;
+}
 .btn-primary{
   color: #ffffff;
   font-size: 1.25rem;
@@ -36,15 +41,14 @@
   background-color: #FF900E;
   border-radius: 8px;
   border: none;
-  margin-bottom: 150px;
   text-decoration: none;
   transition: all linear .3s;
 }
+
 .btn-primary:hover{
   background-color: #424242;
   box-shadow: 0px 2px 7px #424242;
 }
-
 
 /* Heaser Styles */
 
@@ -86,7 +90,8 @@
 
 /* Banner Related Styles */
 .banner{
-  margin-top: 116px;
+  padding-top: 116px;
+  padding-bottom: 50px;
 }
 .banner-content{
   max-width: 850px;
@@ -107,4 +112,39 @@
 .banner img{
   width: 100%;
   border-radius: 8px;
+  margin-top: 50px;
+}
+
+/* Our Features Section */
+.teams{
+  margin-top: 50px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  gap: 70px;
+}
+.team{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+}
+.team img{
+  border-radius: 8px;
+}
+
+.our-features h3{
+  font-size: 2.813rem;
+  font-weight: 700;
+  max-width: 450px;
+}
+.bold-title{
+  color: #131313;
+}
+.yellow-title{
+  color: #FF900E;
+}
+.our-features p{
+  margin-top: 24px;
+  margin-bottom: 40px;
+  font-size: 1rem;
 }
