@@ -259,12 +259,16 @@ section{
 }
 .sponspors-box{
   display: grid;
-  grid-template-columns: repeat(5, 1fr)
+  grid-template-columns: repeat(5, 1fr);
+  justify-content: center;
+  text-align: center;
   
 }
 .sponspors-box img{
+  width: 50%;
   filter: grayscale(2);
   transition: all linear .3s;
+
 }
 .sponspors-box img:hover{
   filter: none;
