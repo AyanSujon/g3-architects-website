@@ -150,6 +150,7 @@ section{
 }
 /* experience-section start  */
 .experience-section{
+  margin-top: 130px;
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 50px;
@@ -166,6 +167,42 @@ section{
 .experience-text-container p{
   margin-bottom: 30px;
 }
+.experience-text-info h6{
+  font-size: 1.25rem;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+.experience-text-info-box{
+  padding: 30px;
+  box-shadow: 0px 4px 30px rgba(0, 0, 0, .06);
+  border-radius: 8px;
+}
+.experience-image-container{
+  display: flex;
+  justify-content: flex-end;
+  position: relative;
+}
+.experience-image-container img{
+  width: 90%;
+  margin-left: auto;
+}
+.experience-image-container-info{
+  width: 340px;
+  color: #ffffff;
+  background-color: #FF900E;
+  text-align: center;
+  padding: 40px;
+  position: absolute;
+  bottom: -60px;
+  left: -10px;
+}
+.experience-image-container-info h3{
+  font-size: 4.063rem;
+}
+.experience-image-container-info p{
+  font-size:1.563rem;
+}
+/* Some Facts Secrion Start  */
 
 
 
