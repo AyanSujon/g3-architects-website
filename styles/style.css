@@ -17,6 +17,10 @@
 .display-flex{
   display: flex;
 }
+/* Dark 01 */
+.bark-1{
+  color: #131313;
+}
 /* Dark 02 */
 .text-gray{
   color: #424242;
@@ -151,6 +155,7 @@ section{
 /* experience-section start  */
 .experience-section{
   margin-top: 130px;
+  margin-bottom: 50px;
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 50px;
@@ -203,8 +208,40 @@ section{
   font-size:1.563rem;
 }
 /* Some Facts Secrion Start  */
+.some-facts{
+  margin-top: 130px;
 
-
-
+}
+.some-facts h3{
+  font-size: 2.813rem;
+  font-weight: 700;
+  margin-bottom: 24px;
+}
+.some-facts p{
+ max-width: 540px;
+}
+.some-facts-container{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 124px;
+  justify-content: space-evenly;
+  margin-bottom: 175px;
+  margin-top: 100px;
+  
+}
+.some-facts-box{
+  border: 1px solid #FF900E;
+  border-radius: 8px;
+  text-align: center;
+  padding: 45px 35px;
+}
+.some-facts-box h5{
+  font-size: 2.813rem;
+  
+}
+.some-facts-box h6{
+  font-size: 1.25rem;
+}
+/* Our Sponspors section Start */
 
 
